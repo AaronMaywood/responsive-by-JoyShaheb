@@ -93,8 +93,10 @@ header.main-header {
 	gap: 16px;				/* flex item間の隙間 */
 
 	/* ボックスを中央寄せ */
-	width: 411px;
+	width: 100%;
+	max-width: 411px;
 	margin: 20px auto 80px;	/* top:20px, bottom:80px */
+
 	/* 内容も中央寄せ */
 	text-align: center;
 }
@@ -196,10 +198,6 @@ MEMO このソースではこのサイズより小さい時には固定とし、
 
 	.when-desktop { display: none; }
 	.when-mobile { display: block; }
-
-	body {
-		width: 375px;
-	}
 
 	header .wrapper {
 		width: 335px;
