@@ -83,7 +83,7 @@ nav ul {
 	gap: 30px;
 }
 
-article {
+main > section {
 	text-align: center;		/* インライン要素であるbuttonを中央寄せ */
 }
 
