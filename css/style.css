@@ -200,7 +200,6 @@ MEMO このソースではこのサイズより小さい時には固定とし、
 	.when-mobile { display: block; }
 
 	header .wrapper {
-		width: 335px;
 		height: 70px;
 	}
 
@@ -221,7 +220,6 @@ MEMO このソースではこのサイズより小さい時には固定とし、
 	}
 
 	header.main-header {
-		width: 335px;
 		margin: 36px auto 36px;	/* top:36px, bottom:36px */
 	}
 
@@ -230,15 +228,16 @@ MEMO このソースではこのサイズより小さい時には固定とし、
 	}
 
 	ul.works {
-		width: 335px;
+		width: auto;
 	}
 	
 	ul.works li {
-		width: 100%;
+		width: auto;
 	}
 
 	ul.works img {
-		height: 197px;
+		width: 90%;
+		height: auto;
 	}
 
 	button {
