@@ -195,7 +195,6 @@ MEMO このソースではこのサイズより小さい時には固定とし、
 	.when-mobile { display: block; }
 
 	header .wrapper {
-		width: 335px;
 		height: 70px;
 	}
 
@@ -216,7 +215,6 @@ MEMO このソースではこのサイズより小さい時には固定とし、
 	}
 
 	header.main-header {
-		width: 335px;
 		margin: 36px auto 36px;	/* top:36px, bottom:36px */
 	}
 
@@ -225,12 +223,13 @@ MEMO このソースではこのサイズより小さい時には固定とし、
 	}
 
 	ul.works {
-		width: 335px;
+		width: auto;
 		grid-template-columns: 1fr;
 	}
 	
 	ul.works img {
-		height: 197px;
+		width: 90%;
+		max-height: 197px;
 	}
 
 	button {
@@ -249,8 +248,8 @@ MEMO このソースではこのサイズより小さい時には固定とし、
 		height: 63px;
 		flex-direction: column;
 		justify-content: space-between;
+		text-align: center;
 	}
-
 }
 
 /*
