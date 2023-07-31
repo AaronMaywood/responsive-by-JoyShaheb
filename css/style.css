@@ -140,6 +140,7 @@ ul.works img {
 button {
 	background: #212529;
 	border: none;			/* 規定のbutton要素のスタイルを無効にする */
+	cursor: pointer;		/* マウスカーソルを乗せた時にカーソルを手のアイコンに変える */
 	border-radius: 5px;
 	width: 170px;
 	height: 48px;
