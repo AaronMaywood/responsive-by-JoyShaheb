@@ -13,7 +13,7 @@ Design System のメモ
 	font-family: "Crimson Text", serif;
 	font-weight: bold;	BOLD(700)
 2. Color
-  - background: #74C69D;	ミントグリーン
+  - background: #4DA49B;	ミントグリーン
   - background: #212529;	ボタンの黒
 3. Breakpoints
   - 375px以下でmobile
@@ -48,7 +48,7 @@ body {
 }
 
 header.page-header {
-	background: #74C69D;
+	background: #4DA49B;
 	color: white;
 }
 
@@ -102,7 +102,7 @@ header.main-header {
 }
 
 header.main-header .lead {
-	color: #74C69D;
+	color: #4DA49B;
 	font-weight: bold;
 }
 
@@ -160,7 +160,7 @@ button p {
 }
 
 footer {
-	background: #74C69D;
+	background: #4DA49B;
 	color: white;
 }
 
