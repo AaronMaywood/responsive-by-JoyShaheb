@@ -193,7 +193,7 @@ footer small {
 /*
 モバイルデバイス用 
 
-MEMO このソースではこのサイズより小さい時には固定とし、リキッドを考慮しない
+MEMO このサイズより小さい時には固定幅とし、リキッドしない
 
 */
 @media (max-width: 375px) {
@@ -215,6 +215,7 @@ MEMO このソースではこのサイズより小さい時には固定とし、
 
 	header .logo {
 		width: 45px;
+		height: auto;
 	}
 
 	article {
