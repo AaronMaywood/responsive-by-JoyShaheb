@@ -1,24 +1,5 @@
 @charset "utf-8";
 
-/*
-Design System のメモ
-
-1. Font Family
-  - 'Work Sans'
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;	regular
-	font-weight: 500;	medium
-	font-weight: bold;	BOLD(700)
-  - "Crimson Text"
-	font-family: "Crimson Text", serif;
-	font-weight: bold;	BOLD(700)
-2. Color
-  - background: #4DA49B;	ミントグリーン
-  - background: #212529;	ボタンの黒
-3. Breakpoints
-  - 375px以下でmobile
-*/
-
 * {
 	margin: 0;
 	padding: 0;
@@ -35,7 +16,7 @@ a {
 .when-mobile { display: none; }
 
 body {
-	/* リキッド */
+	/* リキッド 1440pxまではリキッドとし、それ以上は固定幅とする */
 	width: 100%;
 	max-width: 1440px;
 
